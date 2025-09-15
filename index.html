@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Basic Meta Tags -->
+  <meta name="description" content="ASAP Journey – The smartest AI tool landing page for creators, coders, and marketers.">
+  <meta name="keywords" content="AI Tools, GPT, Landing Page, Midjourney, Pictory, SaaS, ChatGPT, Copy.ai">
+  <meta name="author" content="Ali Hamza">
+
+<!-- Open Graph (Facebook, LinkedIn, etc.) -->
+  <meta property="og:title" content="ASAP Journey – Smart AI Tool Landing Page">
+  <meta property="og:description" content="Supercharged AI tools platform with elegant design, scroll animations, and smart interactions.">
+  <meta property="og:image" content="https://yourdomain.com/images/og-preview.png">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ASAP Journey – AI Tools Landing Page">
+  <meta name="twitter:description" content="Explore top AI tools like ChatGPT, Midjourney, Copy.ai and more on a professional landing page.">
+  <meta name="twitter:image" content="https://yourdomain.com/images/og-preview.png">
+
+  <title>ASAP Journey – Smart Digital Marketing</title>
+
+<!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;800&display=swap" rel="stylesheet" />
+
+<!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+<!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Add inside <head> -->
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- ======= Preloader ======= -->
+<div id="preloader">
+  <div class="loader">
+    <span class="dot"></span>
+    <div class="dots">
+      <span></span><span></span><span></span>
+    </div>
+    <p>Loading ASAP Journey...</p>
+  </div>
+</div>
+
+
+  <!-- ===== Header/Navbar ===== -->
+  <header class="main-header">
+    <nav class="navbar container">
+      <div class="logo"><a href="index.html"> ASAP<span>Journey</span></a></div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Services</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="cta-btn">
+        <a href="start.html" class="btn">Start Free</a>
+        <i class="fas fa-moon dark-toggle" onclick="toggleDarkMode()"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- ======= Hero Section ======= -->
+<section class="hero-section" id="home">
+  <div class="hero-container container">
+    <div class="hero-text">
+      <h1>Shape Your Future with <span>AI</span> Smart Tools</h1>
+      <p>Welcome to ASAP Journey – your all-in-one platform to explore, test, and launch top-tier AI tools that supercharge your productivity & creativity.</p>
+      <div class="hero-buttons">
+        <a href="start.html" class="btn primary">Start Free</a>
+        <button onclick="openModal()" class="btn">Watch Demo</button>
+
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="Img/hero-img2.jpg" alt="AI Illustration" />
+    </div>
+  </div>
+  <div class="scroll-indicator">
+  <a href="#features">
+    <span>Scroll Down</span>
+    <i class="fas fa-angle-down"></i>
+  </a>
+</div>
+</section>
+<!-- ======= Features Section ======= -->
+<section class="features-section" id="features">
+  <div class="container">
+    <h2 class="section-title">Why Choose <span>ASAP Journey</span>?</h2>
+    <p class="section-subtitle">We’ve built a platform that combines powerful AI with beautiful simplicity.</p>
+
+    <div class="features-grid">
+      <div class="feature-card" data-aos="fade-up">
+        <i class="fas fa-brain feature-icon"></i>
+        <h3>AI Powered</h3>
+        <p>Harness the latest in artificial intelligence to boost speed and results with zero complexity.</p>
+      </div>
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-bolt feature-icon"></i>
+        <h3>Super Fast</h3>
+        <p>Lightning-fast processing & UI so your work never slows down — even when you do.</p>
+      </div>
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-user-cog feature-icon"></i>
+        <h3>Smart Customization</h3>
+        <p>Personalized tool setups, themes, and features that adapt to how *you* work.</p>
+      </div>
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-shield-alt feature-icon"></i>
+        <h3>Secure & Private</h3>
+        <p>End-to-end encrypted tools ensure your data remains yours and yours alone.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ======= AI Tools Section ======= -->
+<section class="ai-tools-section" id="tools">
+  <div class="container">
+    <h2 class="section-title">Explore <span>Top AI Tools</span></h2>
+    <p class="section-subtitle">Smartest AI platforms, in one place — built for creators, coders, and marketers.</p>
+
+    <div class="tools-grid">
+      <!-- Tool Card 1 -->
+      <div class="tool-card" data-aos="zoom-in">
+        <img src="img/chatgpt.png" alt="ChatGPT">
+        <h3>ChatGPT</h3>
+        <p>Generate human-like content, code, and ideas instantly with OpenAI’s ChatGPT.</p>
+      </div>
+
+      <!-- Tool Card 2 -->
+      <div class="tool-card" data-aos="zoom-in" data-aos-delay="100">
+        <img src="Img/midjourney.png" alt="MidJourney">
+        <h3>MidJourney</h3>
+        <p>Create breathtaking AI art and concept designs from just your words.</p>
+      </div>
+
+      <!-- Tool Card 3 -->
+      <div class="tool-card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="Img/pictory.png" alt="Pictory">
+        <h3>Pictory AI</h3>
+        <p>Turn text into engaging videos with voiceovers and smart editing.</p>
+      </div>
+
+      <!-- Tool Card 4 -->
+      <div class="tool-card" data-aos="zoom-in" data-aos-delay="300">
+        <img src="Img/dalle.png" alt="DALL·E">
+        <h3>DALL·E</h3>
+        <p>AI image generation from text prompts — stunning visuals in seconds.</p>
+      </div>
+
+      <!-- Tool Card 5 -->
+      <div class="tool-card" data-aos="zoom-in" data-aos-delay="400">
+        <img src="Img/copyai.png" alt="CopyAI">
+        <h3>Copy.ai</h3>
+        <p>Write blogs, ads, and emails 10x faster with AI-powered copywriting.</p>
+      </div>
+
+      <!-- Tool Card 6 -->
+      <div class="tool-card" data-aos="zoom-in" data-aos-delay="500">
+        <img src="Img/notionai.png" alt="Notion AI">
+        <h3>Notion AI</h3>
+        <p>Upgrade your productivity with smart note-taking and document generation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ======= Testimonials Section ======= -->
+<section class="testimonials-section" id="testimonials">
+  <div class="container">
+    <h2 class="section-title">What Our <span>Users Say</span></h2>
+    <p class="section-subtitle">Trusted by digital creators, marketers, and developers worldwide.</p>
+
+    <div class="testimonials-grid">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card" data-aos="fade-right">
+        <img src="Img/user1.jpg" alt="User 1" class="testimonial-img">
+        <h3>Sarah Johnson</h3>
+        <p class="role">Content Creator</p>
+        <p class="feedback">"ASAP Journey saved me hours of writing and research. The AI tools feel like magic!"</p>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="Img/user2.jpg" alt="User 2" class="testimonial-img">
+        <h3>David Kim</h3>
+        <p class="role">Marketing Expert</p>
+        <p class="feedback">"It’s not just another tool – it’s an entire ecosystem of smart automation."</p>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card" data-aos="fade-left" data-aos-delay="200">
+        <img src="Img/user3.avif" alt="User 3" class="testimonial-img">
+        <h3>Ayesha Ali</h3>
+        <p class="role">Web Developer</p>
+        <p class="feedback">"Integration was seamless, and I could generate designs and content instantly."</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ======= Pricing Section ======= -->
+<section class="pricing-section" id="pricing">
+  <div class="container">
+    <h2 class="section-title">Choose Your <span>Plan</span></h2>
+    <p class="section-subtitle">Simple, transparent pricing. No hidden fees.</p>
+
+    <div class="pricing-grid">
+      <!-- Free Plan -->
+      <div class="pricing-card" data-aos="zoom-in">
+        <h3>Starter</h3>
+        <p class="price">$0<span>/mo</span></p>
+        <ul class="features">
+          <li><i class="fas fa-check"></i> Access to basic tools</li>
+          <li><i class="fas fa-check"></i> 3 AI tasks/day</li>
+          <li><i class="fas fa-times unavailable"></i> No API integration</li>
+          <li><i class="fas fa-times unavailable"></i> No team sharing</li>
+        </ul>
+        <a href="start.html" class="btn primary">Start for Free</a>
+      </div>
+
+      <!-- Pro Plan -->
+      <div class="pricing-card featured" data-aos="zoom-in" data-aos-delay="100">
+        <h3>Pro</h3>
+        <p class="price">$19<span>/mo</span></p>
+        <ul class="features">
+          <li><i class="fas fa-check"></i> All tools unlocked</li>
+          <li><i class="fas fa-check"></i> Unlimited tasks</li>
+          <li><i class="fas fa-check"></i> API access</li>
+          <li><i class="fas fa-check"></i> Team sharing</li>
+        </ul>
+       <button type="submit" class="btn secondary"><a href="payment.html" class="btn-subscribe">Subscribe</a></button>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ======= Contact / Newsletter Section ======= -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <h2 class="section-title">Stay <span>Connected</span></h2>
+    <p class="section-subtitle">Have a question or want updates? Reach out or subscribe below.</p>
+
+    <div class="contact-wrapper">
+      <!-- Contact Form -->
+      <form class="contact-form" data-aos="fade-right">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+
+      <!-- Newsletter Box -->
+      <div class="newsletter-box" data-aos="fade-left">
+        <h4>Subscribe to Our Newsletter</h4>
+        <p>Get AI updates, tools, and tips delivered to your inbox.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit" class="btn secondary"><a href="payment.html" class="btn-subscribe">Subscribe</a></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ======= Video Modal ======= -->
+<div id="videoModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <iframe width="100%" height="400" src="https://www.youtube.com/watch?v=-Qsgfrm9z1E&list=RD-Qsgfrm9z1E&start_radio=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+<!-- ======= Footer Section ======= -->
+<footer class="footer-section">
+  <div class="container footer-container">
+    <!-- Brand Column -->
+    <div class="footer-brand">
+      <h3><a href="index.html">ASAP<span>Journey</span></a></h3>
+      <p>Your shortcut to the smartest AI tools on the web. Built for speed, simplicity, and scale.</p>
+    </div>
+
+    <!-- Links Column -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media Column -->
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 ASAP Journey. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+
+<!-- ======= Scroll to Top Button ======= -->
+<button id="scrollTopBtn" title="Go to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+  <script src="javascript.js"></script>
+  <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

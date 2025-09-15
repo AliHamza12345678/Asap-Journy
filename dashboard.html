@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ASAP Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f1f5f9;
+  color: #333;
+}
+
+.dashboard-header {
+  background: #111827;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header .logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.dashboard-header .logo span {
+  color: #00c6ff;
+}
+
+.dashboard-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.dashboard-nav a:hover {
+  color: #00c6ff;
+}
+
+.dashboard-main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.welcome-section {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.welcome-section h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.welcome-section p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #00c6ff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0072ff;
+}
+
+.btn-secondary {
+  background-color: #6b7280;
+}
+
+.btn-secondary:hover {
+  background-color: #4b5563;
+}
+
+.stats-section {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+}
+
+.stat-card i {
+  font-size: 32px;
+  color: #00c6ff;
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.stat-card p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+</style>
+<body>
+  <header class="dashboard-header">
+    <div class="logo">🚀 ASAP <span>Journey</span></div>
+    <nav class="dashboard-nav">
+      <a href="index.html">Home</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="tools.html">Tools</a>
+      <a href="#">Logout</a>
+    </nav>
+  </header>
+
+  <main class="dashboard-main">
+    <section class="welcome-section">
+      <h1>Welcome, Explorer! 🌟</h1>
+      <p>Your AI journey starts here. Access tools, track usage, and explore the world of automation.</p>
+      <a href="tools.html" class="btn">Launch Tools</a>
+      <a href="pricing.html" class="btn btn-secondary">Upgrade to Pro</a>
+    </section>
+
+    <section class="stats-section">
+      <div class="stat-card">
+        <i class="fas fa-rocket"></i>
+        <div>
+          <h3>10+</h3>
+          <p>AI Tools Available</p>
+        </div>
+      </div>
+      <div class="stat-card">
+        <i class="fas fa-clock"></i>
+        <div>
+          <h3>24/7</h3>
+          <p>Access Anytime</p>
+        </div>
+      </div>
+      <div class="stat-card">
+        <i class="fas fa-lock"></i>
+        <div>
+          <h3>Secure</h3>
+          <p>Data & Privacy</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

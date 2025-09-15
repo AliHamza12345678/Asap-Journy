@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Start Your Free Journey - ASAP</title>
+  <link rel="stylesheet" href="css/start-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.start-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 90%;
+}
+
+.start-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.start-container h1 span {
+  color: #00c6ff;
+}
+
+.start-container p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+.start-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.start-form input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+.start-form button {
+  background-color: #00c6ff;
+  color: #fff;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.start-form button:hover {
+  background-color: #0072ff;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.disclaimer a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+  </style>
+</head>
+<body>
+  <section class="start-section">
+    <div class="start-container">
+      <h1>🚀 Get Started with <span>ASAP Journey</span></h1>
+      <p>No credit card required. Dive into AI tools in seconds.</p>
+      <form id="startForm" class="start-form">
+        <input type="email" placeholder="Enter your email address" required />
+        <button type="submit">Start for Free</button>
+      </form>
+      <div class="disclaimer">
+        <small>By starting, you agree to our <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a>.</small>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById("startForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      window.location.href = "dashboard.html";
+    });
+  </script>
+</body>
+</html>
+
+</body>
+</html>

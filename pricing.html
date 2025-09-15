@@ -1,0 +1,186 @@
+# Creating pricing.html and css/pricing-style.css with a pro-level layout
+
+pricing_html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pricing - ASAP Journey</title>
+  <link rel="stylesheet" href="css/pricing-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<style>
+    body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f9fafb;
+  color: #333;
+}
+
+.pricing-header {
+  background: #111827;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pricing-header .logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.pricing-header .logo span {
+  color: #00c6ff;
+}
+
+.pricing-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.pricing-nav a:hover {
+  color: #00c6ff;
+}
+
+.pricing-main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  color: #555;
+  font-size: 16px;
+}
+
+.plans {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  width: 280px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-10px);
+}
+
+.plan-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.plan-card .price {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #00c6ff;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  color: #444;
+}
+
+.plan-card ul li {
+  margin: 8px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #6b7280;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #4b5563;
+}
+
+.highlight {
+  background-color: #00c6ff;
+}
+
+.highlight:hover {
+  background-color: #0072ff;
+}
+
+</style>
+<body>
+  <header class="pricing-header">
+    <div class="logo">💸 ASAP <span>Pricing</span></div>
+    <nav class="pricing-nav">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main class="pricing-main">
+    <section class="intro">
+      <h1>Choose Your Plan</h1>
+      <p>Whether you're exploring or scaling — we've got a plan for you.</p>
+    </section>
+
+    <section class="plans">
+      <div class="plan-card free">
+        <h2>Free</h2>
+        <p class="price">$0/month</p>
+        <ul>
+          <li>✅ 3 AI tools</li>
+          <li>✅ Basic support</li>
+          <li>🚫 Limited features</li>
+        </ul>
+        <a href="dashboard.html" class="btn">Continue Free</a>
+      </div>
+
+      <div class="plan-card pro">
+        <h2>Pro</h2>
+        <p class="price">$19/month</p>
+        <ul>
+          <li>✅ 10+ AI tools</li>
+          <li>✅ Priority support</li>
+          <li>✅ Unlimited projects</li>
+        </ul>
+        <a href="payment.html" class="btn highlight">Upgrade to Pro</a>
+      </div>
+
+      <div class="plan-card premium">
+        <h2>Premium</h2>
+        <p class="price">$49/month</p>
+        <ul>
+          <li>✅ All AI tools</li>
+          <li>✅ 1-on-1 Support</li>
+          <li>✅ Custom integrations</li>
+        </ul>
+        <a href="payment.html" class="btn-subscribe">Subscribe</a>
+
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
